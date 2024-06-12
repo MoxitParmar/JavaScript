@@ -1,8 +1,8 @@
-let score = 'ABC110'
+let score = "ABC110";
 // console.log(typeof score)
 // console.log(typeof (score))
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score);
 
 // Number: It is used to convert the string into a number
 // console.log(typeof valueInNumber)
@@ -17,10 +17,9 @@ let valueInNumber = Number(score)
 // undefined -> NaN (Number)
 // true -> 1 (Number) and false -> 0 (Number)
 
+let login = " ";
 
-let login = " "
-
-let isLoggedIn = Boolean(login)
+let isLoggedIn = Boolean(login);
 // console.log(isLoggedIn)
 
 //conversions
@@ -32,13 +31,13 @@ let isLoggedIn = Boolean(login)
 //operation precedence => () > ** > * > / > % > + > -
 //operation associativity => left to right
 
-let value = 10
-let negValue = -value
+let value = 10;
+let negValue = -value;
 // console.log(negValue)
 
-let str = "hello"
-let str1 = " world"
-let str2 = str + str1
+let str = "hello";
+let str1 = " world";
+let str2 = str + str1;
 // console.log(str2)
 
 // console.log(1 + 1 + "2")  // left to right associativity so it will add 1+1 = 2 and then 2 + "2" = 22
@@ -49,4 +48,3 @@ let str2 = str + str1
 
 // console.log(+true) // 1
 // console.log(+"") // 0
-
