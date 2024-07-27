@@ -80,8 +80,10 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
+// A symbol is a unique and immutable data type that is often used to identify object properties.
 const id = Symbol('123')
 const anotherId = Symbol('123')
+
 
 console.log(id === anotherId);
 
@@ -105,7 +107,7 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
-// me all the typeof of all the data types
+// the typeof of all the data types
 // null -> object
 // array -> object
 // function -> function

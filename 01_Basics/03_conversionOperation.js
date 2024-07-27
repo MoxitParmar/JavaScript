@@ -6,9 +6,10 @@ let valueInNumber = Number(score);
 
 // Number: It is used to convert the string into a number
 // console.log(typeof valueInNumber)
+console.log(typeof valueInNumber);
 
 // NaN: Not a Number because the string is not a number
-// console.log(valueInNumber)
+console.log(valueInNumber);
 
 // conversions
 // "123" -> 123 (Number)

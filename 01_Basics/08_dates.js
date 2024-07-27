@@ -17,11 +17,12 @@ let myTimeStamp = Date.now()
 // console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date()
-console.log(newDate);
+// console.log(newDate);
 console.log(newDate.getMonth() + 1);
 console.log(newDate.getDay());
+console.log(`${newDate.getDate()} / ${newDate.getMonth() + 1} / ${newDate.getFullYear()} , time: ${newDate.toLocaleTimeString( )} `)
 
 // `${newDate.getDay()} and the time `
 
-let extraDate = newDate.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
+let extraDate = newDate.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric',  hour12: true})
 console.log(extraDate);
